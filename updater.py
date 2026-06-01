@@ -15,7 +15,7 @@ def get_internal_key() -> str:
     key = os.getenv("INTERNAL_KEY")
     if key:
         return key
-    return "InfinitySmart_Secret_2026"
+    return ""
 
 def simple_decrypt(encoded_data, key=None):
     if key is None:
